@@ -9,7 +9,9 @@ import servePlugin from 'rollup-plugin-serve';
 import css from 'rollup-plugin-import-css';
 
 export default defineConfig({
-  input: {},
+  input: {
+    slider: './src/features/slider.ts',
+  },
   output: {
     format: 'module',
     dir: 'dist',
