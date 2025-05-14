@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(29, 29, 29);
+  color: rgb(204, 204, 204);
+}
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+.swiper-slide {
+  background: rgb(105, 105, 105);
+  width: 20rem;
+}
+
+.swiper {
+  height: 31.25rem;
+}
+
+.progressbar-cont {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.swiper-progressbar-bg {
+  width: 100%;
+  height: 0.5rem;
+  background: rgb(105, 105, 105);
+  position: relative;
+}
+
+.swiper-progressbar {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(204, 204, 204);
+  left: 0;
+  top: 0;
+  transform: scaleX(0%);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
